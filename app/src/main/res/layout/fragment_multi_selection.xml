@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_one_selec_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/general_text_size"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="@dimen/home_margin"
+        android:text="@string/multi_selec_text"/>
+
+    <Button
+        android:id="@+id/btn_multi_selec_one"
+        android:layout_marginTop="@dimen/home_margin"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:textSize="@dimen/general_text_size"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white"
+        android:text="@string/multi_selec_one"/>
+
+    <Button
+        android:id="@+id/btn_multi_selec_two"
+        android:layout_marginTop="@dimen/home_margin"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:textSize="@dimen/general_text_size"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white"
+        android:text="@string/multi_selec_two"/>
+
+    <Button
+        android:id="@+id/btn_multi_selec_three"
+        android:layout_marginTop="@dimen/home_margin"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:textSize="@dimen/general_text_size"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white"
+        android:text="@string/multi_selec_three"/>
+
+    </LinearLayout>
+
+</LinearLayout>

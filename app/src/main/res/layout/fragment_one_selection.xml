@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/home_margin"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_one_selec_title"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/title_text_size"
+            android:textColor="@android:color/white"
+            android:text="@string/one_selec_title"/>
+
+        <TextView
+            android:id="@+id/tv_one_selec_msg"
+            android:layout_marginTop="@dimen/home_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/general_text_size"
+            android:textColor="@android:color/white"
+            android:text="@string/one_selec_text"/>
+
+        <Button
+            android:id="@+id/btn_one_selec_confirm"
+            android:layout_marginTop="@dimen/home_margin"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:textSize="@dimen/general_text_size"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="@android:color/white"
+            android:text="@string/button_ok"/>
+
+    </LinearLayout>
+
+</LinearLayout>
